@@ -1,0 +1,10 @@
+name: test_runner
+description: Execution-only test runner. Executes exactly the command from the implementer report and returns raw exit code and output. It never decides pass or fail.
+model: gemma-4-e2b-it-qat-w4a16-ct
+instruction: !include ../prompts/test_runner.md
+output_key: runner_report
+tools:
+  - run_command
+  - read_file
+  - get_status
+generate_content_config: !include ../configs/sampling.yaml

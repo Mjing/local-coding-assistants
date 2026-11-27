@@ -1,0 +1,12 @@
+name: investigator
+description: Read-only analyst. Locates the exact source location to change and returns a structured FILE/LINES/FUNCTION/FIX report for the implementer.
+model: gemma-4-e2b-it-qat-w4a16-ct
+instruction: !include ../prompts/investigator.md
+output_key: investigator_report
+tools:
+  - read_file
+  - run_command
+  - search_similar_code
+  - get_code_neighbors
+  - get_code_subgraph
+generate_content_config: !include ../configs/sampling.yaml

@@ -1,0 +1,9 @@
+name: swe_loop
+description: Fixed investigate -> implement -> test-run -> independent-check loop for an unseen Python repository.
+agent_class: LoopAgent
+max_iterations: 3
+sub_agents:
+  - config_path: sub_agents/investigator.yaml
+  - config_path: sub_agents/implementer.yaml
+  - config_path: sub_agents/test_runner.yaml
+  - config_path: sub_agents/test_checker.yaml

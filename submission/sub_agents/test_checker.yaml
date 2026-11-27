@@ -1,0 +1,10 @@
+name: test_checker
+description: Independent verdict agent and the only submitter. Verifies the implementer spec against the runner's raw artifacts, then submits only on PASS or returns NEXT FIX.
+model: gemma-4-e2b-it-qat-w4a16-ct
+instruction: !include ../prompts/test_checker.md
+tools:
+  - run_command
+  - read_file
+  - get_status
+  - submit_patch
+generate_content_config: !include ../configs/sampling.yaml
