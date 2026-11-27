@@ -1,0 +1,91 @@
+{
+  "tasks": 118,
+  "counts": {
+    "investigator": 118,
+    "implementer": 98,
+    "test_runner": 50,
+    "test_checker": 92
+  },
+  "skipped": [
+    {
+      "id": "tomli_41881885",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "tomli_b9cbbe27",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "tomli_8d34a601",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "jinja_ee832194",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "werkzeug_5cc9af72",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "werkzeug_3d27209c",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "werkzeug_411ba540",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "werkzeug_5b0e3209",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "werkzeug_0743179b",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "werkzeug_45768395",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "werkzeug_4aa0024e",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "werkzeug_4a7ead7b",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "werkzeug_7b3559ec",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "werkzeug_0e170182",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "urllib3_01cd60b5",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "urllib3_ed0ed075",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "urllib3_adde463f",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "urllib3_ba8b97b0",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "jsonschema_8cff13d0",
+      "reason": "implementer edit failed"
+    },
+    {
+      "id": "jsonschema_7046da13",
+      "reason": "implementer edit failed"
+    }
+  ]
+}

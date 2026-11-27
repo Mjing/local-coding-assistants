@@ -1,0 +1,18 @@
+{
+  "repos": {
+    "python-attrs/attrs": 25,
+    "marshmallow-code/marshmallow": 25,
+    "astanin/python-tabulate": 25,
+    "pytest-dev/pluggy": 25,
+    "alecthomas/voluptuous": 0,
+    "bottlepy/bottle": 25,
+    "pyeve/cerberus": 25,
+    "hukkin/tomli": 25,
+    "pallets/jinja": 25,
+    "pallets/werkzeug": 25,
+    "urllib3/urllib3": 25,
+    "python-jsonschema/jsonschema": 25
+  },
+  "total": 275,
+  "skipped": []
+}
